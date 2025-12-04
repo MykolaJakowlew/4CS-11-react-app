@@ -1,11 +1,15 @@
 .container {
   margin: auto;
-  width: 800px;
-  height: 600px;
-  display: grid;
+  width: 445px;
+  height: 200px;
+  display: flex;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); */
   row-gap: 20px;
   column-gap: 20px;
   padding: 20px 0;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
 }
